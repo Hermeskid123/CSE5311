@@ -2,8 +2,9 @@ Preston Mann
 
 1.) 
 in this repo I have implmented insertion sort,selection sort and bubble sort
+
 2.)
-selection sort divids the A into two sections a sorted part and the unsorted part. In each iteration, we select the smallest element from the unsorted selection then we swap it with the first element of the unsorted section like cards this algo will cont until the entire array is sorted.
+selection sort divids the A into two sections a sorted part and the unsorted part. In each iteration, we select the smallest element from the unsorted section then we swap it with the first element of the unsorted section like cards this algo will cont until the entire array is sorted.
 
 the algo has is correct since 
 
@@ -17,18 +18,12 @@ Invariant: At the end of each iteration for the loop we put the smallest element
 
 
 3.) code results refer to benchmark.png for graph 
-     *-memory
-          description: System memory
-          physical id: 0
-          size: 16GiB
-     *-cpu
-          product: Intel(R) Core(TM) i7-6820HQ CPU @ 2.70GHz
-          vendor: Intel Corp.
-          physical id: 1
-          bus info: cpu@0
-          size: 3281MHz
-          capacity: 3600MHz
-          width: 64 bits
+memory
+    size: 16GiB
+
+
+cpu    
+    product: Intel(R) Core(TM) i7-6820HQ CPU @ 2.70GHz
 
 
 
