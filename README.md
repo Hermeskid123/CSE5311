@@ -7,13 +7,13 @@ selection sort divids the A into two sections a sorted part and the unsorted par
 
 the algo has is correct since 
 
-    Initialization: At the beginning of each iteration the we have the let side as sorted and the right side as unsorted
+Initialization: At the beginning of each iteration the we have the let side as sorted and the right side as unsorted
 
-    Maintenance: After each iteration, the smallest element is moved into the sorted part keeping its correctness 
+Maintenance: After each iteration, the smallest element is moved into the sorted part keeping its correctness 
     
-    Termination: The algorithm terminates when the un sorted side is empty and the left side is sorted 
+Termination: The algorithm terminates when the un sorted side is empty and the left side is sorted 
 
-    Invariant: At the end of each iteration for the loop we put the smallest element into the sorted side of the section 
+Invariant: At the end of each iteration for the loop we put the smallest element into the sorted side of the section 
 
 
 3.) code results refer to benchmark.png for graph 
