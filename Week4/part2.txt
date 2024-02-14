@@ -1,0 +1,11 @@
+1. Implement the solutions and upload it to github
+done :)
+
+2. Prove the time complexity of the algorithms
+
+we have one for loop doing for  i in range(0, l-1) where l is the len of the input arr 
+this means that our time complexity is O(n) where n is the size of the input array since we only iterate through it once. 
+
+
+3. Comment on way's you could improve your implementation (you don't need to do it just discuss it)
+I am useing append in python this could be replaced with somthing that is faster and doest take up as much space 

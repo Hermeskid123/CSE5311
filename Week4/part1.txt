@@ -1,0 +1,20 @@
+1. Implement the solutions and upload it to github
+Done :)
+
+2. Prove the time complexity of the algorithms
+we are only using while loops to go through each array. the function takes in 3 arrays with legnth A B C. 
+since we go through each array only once our time complecity is O(A+B+C) => O(n) where n = max(A,B,C) so this is
+a linear proboblem if we had a unsorted array the algo would need to be changed 
+
+
+3. Comment on way's you could improve your implementation (you don't need to do it just discuss it)
+
+we can make it sort K arrays and not just three. we could also shorted the code to make it more readable by using just 1 while loop
+this will also make small impomvemts on the avergae amount of instruction but overall little impact to how long 
+it takes to run
+
+
+out: 
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+[1, 2, 3, 4, 7, 8, 9, 10, 11]
+ 
