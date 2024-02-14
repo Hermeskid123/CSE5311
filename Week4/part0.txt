@@ -1,0 +1,47 @@
+For the following two problems:
+
+1. Implement the solutions and upload it to github
+done :)
+
+
+2. Prove the time complexity of the algorithms
+we have 
+
+T(n) = T(n-1) + T(n-2) + 1
+T(0) = T(1) = 0
+then let 
+T(n-2) be about T(n-1). 
+and we can now repalce our values to get 
+T(n) = T(n-1) + T(n-1) + 1 = 2*T(n-1) + 1
+we can find T(n) Using Backward Substitution
+T(n) = 2^k*T(n–k) + (2^k-1)
+and you can see that 
+T(n) = 2^n*T(0) + (2^n-1) = 2^n + 2^n – 1 = O(2^n) => that time complexity is O(2^n)
+
+3. Comment on way's you could improve your implementation
+we can use a cache to remember some of the values we compute and try it with iteration rather than recursion to save of space.
+
+output:
+fib call 5->
+fib call 4->
+fib call 3->
+fib call 2->
+fib call 1->
+fib call 0->
+fib Call 1->
+fib call 1->
+fib Call 2->
+fib call 2->
+fib call 1->
+fib call 0->
+fib Call 1->
+fib Call 3->
+fib call 3->
+fib call 2->
+fib call 1->
+fib call 0->
+fib Call 1->
+fib call 1->
+fib Call 2->
+fib Call 5->
+ 
