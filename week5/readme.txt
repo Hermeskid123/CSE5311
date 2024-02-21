@@ -1,5 +1,5 @@
 this code uses bit manipulation and the heap can:
-build min heapheapify when we build the heap and when we poped
+build min heapheapify when we build the heap and we can pop 
 we can pop the root and re heapify 
 the heap can have anything since it uses python lists eg 3 3.5 etc 
 
